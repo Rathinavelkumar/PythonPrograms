@@ -1,17 +1,30 @@
-# Welcome to MkDocs
+** Formula for the calculation **
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Area of a triangle = square root of (s(s-a)(s-b)(s-c)) 
 
-## Commands
+semi-perimeter=(a+b+c)/2
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Program
 
-## Project layout
+    #Python program to find the area of the triangle
+    #Formula for the calculation
+    #Area of a triangle = square root of (s*(s-a)*(s-b)*(s-c)) 
+    #semi-perimeter=(a+b+c)/2
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    #Input parameters
+    side1 = 15
+    side2 = 17
+    side3 = 10
+
+    #calculation of semi parameter
+    s = (side1 + side2 + side3)/2
+
+    #calculation of area
+    area = (s*(s-side1)*(s-side2)*(s-side3)) ** 0.5
+    #Round the floating result
+    area = round(area, 2)
+    print("The area of the triangle is {}".format(area))
+
+## Output
+
+    The area of the triangle is 74.46

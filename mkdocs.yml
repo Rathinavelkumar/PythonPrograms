@@ -5,7 +5,7 @@ site_description: >-
   An interactive site to solve lot of coding problems using python language
 
 nav:
-    - Python program 1: index.md
+    - Area of the triangle: index.md
 
 theme:
   name: material
