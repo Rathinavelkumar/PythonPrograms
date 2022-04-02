@@ -9,6 +9,7 @@ nav:
     - Solve quadratic equations: 2_quadratic_equations.md
     - Swap two numbers: 3_swap_numbers.md
     - Generate random numbers: 4_generate_random_numbers.md
+    - Display calendar: 5_display _calendar.md
 
 markdown_extensions:
   - attr_list
